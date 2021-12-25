@@ -1,0 +1,286 @@
+body {
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+h1 {
+  position: absolute;
+  left: 11rem;
+  top: 4rem;
+}
+.drum-kit {
+  position: absolute;
+  height: 30rem;
+  width: 30rem;
+  top: 6rem;
+  left: 12rem;
+  z-index: -1;
+}
+.myButton {
+  position: absolute;
+  box-shadow: 0 1px 0 0 #1c1b18;
+  background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  background-color: #eae0c2;
+  border-radius: 11px;
+  border: 2px solid #333029;
+  display: inline-block;
+  cursor: pointer;
+  color: #505739;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 9px 11px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background-color: #ccc2a6;
+}
+.myButton:active {
+  box-shadow: 0 2px black;
+}
+
+.button-r {
+  top: 12rem;
+  left: 21rem;
+}
+.button-e {
+  top: 12rem;
+  left: 31rem;
+}
+
+.button-f {
+  top: 19rem;
+  left: 20rem;
+}
+
+.button-g {
+  top: 17rem;
+  left: 23rem;
+}
+
+.button-h {
+  top: 17rem;
+  left: 27.5rem;
+}
+
+.button-j {
+  top: 19rem;
+  left: 30rem;
+}
+
+.button-v {
+  top: 25rem;
+  left: 24rem;
+}
+
+.button-b {
+  top: 25rem;
+  left: 27rem;
+}
+
+.button-i {
+  top: 15rem;
+  left: 31.75rem;
+}
+
+.button-k {
+  top: 15rem;
+  left: 34rem;
+}
+
+.heading-font {
+  font-family: "Oooh Baby", cursive;
+  font-size: 4rem;
+  color: red;
+}
+.key-mapping {
+  background-color: black;
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+  vertical-align: middle;
+}
+.key-mapping span {
+  color: black;
+  font-family: "Shizuru", cursive;
+  font-weight: 900;
+  background-color: white;
+  padding: 0.15rem 0.55rem 0.25rem 0.55rem;
+  border-style: outset;
+  border-radius: 20%;
+  margin-left: 4rem;
+}
+
+.key-mapping p {
+  display: inline-block;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1rem;
+  margin-top: 1.2rem;
+  margin-left: 0.3rem;
+}
+#kick-b {
+  margin-left: 0;
+}
+.key-mapping hr {
+  border: 1px solid white;
+}
+
+.key-mapping h2 {
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+}
+
+@media screen and (max-width: 910px) {
+  h1 {
+    left: 3rem;
+  }
+  .drum-kit {
+    left: 2rem;
+  }
+  .key-mapping span {
+    color: black;
+    padding: 0.15rem 0.55rem 0.25rem 0.55rem;
+    border-style: outset;
+    border-radius: 20%;
+    margin-left: 1rem;
+    font-size: small;
+  }
+  .key-mapping h2 {
+    text-align: center;
+    font-family: "Shadows Into Light", cursive;
+    font-size: medium;
+  }
+  .button-r {
+    top: 12rem;
+    left: 10rem;
+  }
+  .button-e {
+    top: 12rem;
+    left: 21rem;
+  }
+  .button-f {
+    top: 19rem;
+    left: 10rem;
+  }
+  .button-g {
+    top: 17rem;
+    left: 13rem;
+  }
+
+  .button-h {
+    top: 17rem;
+    left: 18rem;
+  }
+
+  .button-j {
+    top: 19rem;
+    left: 20rem;
+  }
+
+  .button-v {
+    top: 25rem;
+    left: 14rem;
+  }
+
+  .button-b {
+    top: 25rem;
+    left: 17rem;
+  }
+
+  .button-i {
+    top: 15rem;
+    left: 22rem;
+  }
+
+  .button-k {
+    top: 15rem;
+    left: 24rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .heading-font{
+    font-size: 3rem;
+  }
+  .key-mapping span{
+    font-size: 0.25rem;
+    margin: 0.5px;
+  }
+  .key-mapping p{
+    font-size: smaller;
+    margin-left: 0.5px;
+  }
+  .drum-kit{
+    height: 25rem;
+    width: 25rem;
+  }
+  .button-r {
+    top: 11rem;
+    left: 9rem;
+    padding: 6px 8px;
+  }
+  .button-e {
+    top: 11rem;
+    left: 17rem;
+    padding: 6px 8px;
+  }
+  .button-f {
+    top: 17rem;
+    left: 9rem;
+    padding: 6px 8px;
+  }
+  .button-g {
+    top: 15rem;
+    left: 11rem;
+    padding: 6px 8px;
+  }
+
+  .button-h {
+    top: 15rem;
+    left: 15rem;
+    padding: 6px 8px;
+  }
+
+  .button-j {
+    top: 16rem;
+    left: 17rem;
+    padding: 4px 8px;
+  }
+
+  .button-v {
+    top: 22rem;
+    left: 12rem;
+  }
+
+  .button-b {
+    top: 22rem;
+    left: 14.5rem;
+  }
+
+  .button-i {
+    top: 14rem;
+    left: 19rem;
+    padding: 3px 6px;
+  }
+
+  .button-k {
+    top: 14rem;
+    left: 20.5rem;
+    padding: 3px 6px;
+  }
+}
+@media screen and (max-width: 540px ){
+  .heading-font{
+    font-size: 2rem;
+  }
+  .key-mapping p{
+    font-size: 0.125rem;
+  }
+  .key-mapping span{
+    padding: 0.1rem 0.2rem;
+  }
+}
