@@ -275,7 +275,7 @@ h1 {
 }
 @media screen and (max-width: 540px ){
   .heading-font{
-    font-size: 1.65rem;
+    font-size: smaller;
   }
   .drum-kit{
     left: 1.5rem;
