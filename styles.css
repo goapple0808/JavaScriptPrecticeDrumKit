@@ -275,12 +275,76 @@ h1 {
 }
 @media screen and (max-width: 540px ){
   .heading-font{
-    font-size: 2rem;
+    font-size: 1.65rem;
+  }
+  .drum-kit{
+    left: 1.5rem;
+    width: 15rem;
+  }
+  .key-mapping {
+    right: 0;
+    width: auto;
   }
   .key-mapping p{
     font-size: 0.125rem;
   }
   .key-mapping span{
     padding: 0.1rem 0.2rem;
+  }
+  .button-r {
+    top: 11rem;
+    left: 5rem;
+    padding: 6px 8px;
+  }
+  .button-e {
+    top: 11rem;
+    left: 11rem;
+    padding: 6px 8px;
+  }
+  .button-f {
+    top: 17rem;
+    left: 5rem;
+    padding: 6px 8px;
+  }
+  .button-g {
+    top: 15rem;
+    left: 6.5rem;
+    padding: 6px 8px;
+  }
+
+  .button-h {
+    top: 15rem;
+    left: 8.5rem;
+    padding: 6px 8px;
+  }
+
+  .button-j {
+    top: 17rem;
+    left: 10rem;
+    padding: 2px 4px;
+  }
+
+  .button-v {
+    top: 22rem;
+    left: 7rem;
+    padding: 4px 4px;
+  }
+
+  .button-b {
+    top: 22rem;
+    left: 8.75rem;
+    padding: 4px 4px;
+  }
+
+  .button-i {
+    top: 14rem;
+    left: 11.5rem;
+    padding: 3px 4px;
+  }
+
+  .button-k {
+    top: 14rem;
+    left: 12.75rem;
+    padding: 3px 6px;
   }
 }
